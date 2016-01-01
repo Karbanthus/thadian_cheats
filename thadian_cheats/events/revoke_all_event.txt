@@ -1,0 +1,29 @@
+namespace = revoke_all
+character_event = {
+	id = revoke_all.250001
+	desc = revoke_all.250001.desc
+	picture = "GFX_evt_council"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_vassal ={
+			any_demesne_title = {
+				gain_title = FROM
+			}
+		}
+		any_vassal ={
+			any_demesne_title = {
+				gain_title = FROM
+			}
+		}
+		any_vassal ={
+			any_demesne_title = {
+				gain_title = FROM
+			}
+		}
+	}
+	option = {
+		name = revoke_all.250001.opta
+	}
+}
